@@ -41,9 +41,14 @@ const userSchema: Schema<IUser> = new Schema(
       select: false,
     },
     avatar: {
-      public_id: String,
-      url: "user",
+      public_id: {
+        type: String
+      },
+      url: {
+        type: String
+      }
     },
+    
     role: {
       type: String,
       default: "user",

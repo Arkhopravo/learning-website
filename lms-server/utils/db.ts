@@ -10,7 +10,7 @@ const connectDB = async () => {
         })
     }
     catch(error) {
-        console.log(error.message);
+        console.log(error.message, 400);
         setTimeout(connectDB, 5000);
     }
 
