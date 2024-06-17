@@ -2,10 +2,10 @@
   "name": "lms-server",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "ts-node-dev --respawn --transpile-only server.ts"
+    "dev": "nodemon index.js"
   },
   "author": "Arkhopravo",
   "license": "ISC",
@@ -16,7 +16,9 @@
     "@types/express": "^4.17.21",
     "@types/jsonwebtoken": "^9.0.6",
     "@types/node": "^20.12.7",
+    "bcrypt": "^5.1.1",
     "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.2.0",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
@@ -26,6 +28,7 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.3.1",
     "nodemailer": "^6.9.13",
+    "nodemon": "^3.1.0",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.4.5"
   },
