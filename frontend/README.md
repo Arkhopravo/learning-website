@@ -34,3 +34,18 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+<!-- Video Calling website apis -->
+https://dashboard.getstream.io/app/1320461/video/overview/
+
+
+<!-- Authentication api -->
+https://dashboard.clerk.com/apps/app_2iH9i9U4otDxum5kKWTytQa1vfU/instances/ins_2iH9iI7kcMyqt4xvq0BTRod4A3u/user-authentication/email-phone-username
+
+<!-- UI/UX design -->
+https://ui.shadcn.com/docs/components/dialog
+
+<!-- Peaking new date -->
+npm install react-datepicker
